@@ -358,61 +358,6 @@ filename "Cap3-AnaliseOrientadaAObjeto.lyx"
 \end_layout
 
 \begin_layout Standard
-\align block
-\begin_inset CommandInset include
-LatexCommand include
-filename "Cap4-Projeto.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-\begin_inset CommandInset include
-LatexCommand include
-filename "Cap5-Ciclos-Planejamento-Detalhamento.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-\begin_inset CommandInset include
-LatexCommand include
-filename "Cap6-Ciclos-Construcao-Implementacao.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-\begin_inset CommandInset include
-LatexCommand include
-filename "Cap7-Teste.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-\begin_inset CommandInset include
-LatexCommand include
-filename "Cap8-DocumentacaoDoDesenvolvedor.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \noindent
 \align block
 \begin_inset ERT
@@ -467,28 +412,6 @@ status open
 \backslash
 appendix
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-\begin_inset CommandInset include
-LatexCommand include
-filename "Cap-Apendice-A.lyx"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align block
-\begin_inset CommandInset include
-LatexCommand include
-filename "Cap-Apendice-B.lyx"
 
 \end_inset
 
