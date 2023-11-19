@@ -146,7 +146,7 @@ status open
 
 
 \backslash
-lfoot{SeuNomeAqui} 
+lfoot{Nathan Rangel Magalhães} 
 \backslash
 rfoot{
 \backslash
@@ -181,20 +181,19 @@ today ele vai colocar data no material impresso
 \end_layout
 
 \begin_layout Standard
-No presente projeto de engenharia desenvolve-se o software XXXX, um software
- aplicado a engenharia de petróleo e que utiliza o paradigma da orientação
- a objetos.
+O presente projeto de engenharia, desenvolve-se o software PetroRev, uma
+ aplicação direcionada à engenharia de petróleo que adota o paradigma da
+ orientação a objetos.
 \end_layout
 
-\begin_layout Itemize
-O primeiro parágrafo da introdução pode ser um super resumo do trabalho.
- A ideia é fazer um resumo do resumo.
-\end_layout
-
-\begin_layout Itemize
-ESTE MODELO TEM TEXTOS EXPLICATVOS QUE DEVEM SER ELIMINADOS DA VERSÃO FINAL.
- O OBJETIVO DE COLOCAR AS EXPLICAÇÕES É FACILITAR O ENTENDIMENTO DO QUE
- DEVE ENTRAR EM CADA SEÇÃO.
+\begin_layout Standard
+O PetroRev surge como resposta à necessidade de automatização na análise
+ do Volume Elementar Representativo (REV) em amostras petrofísicas, obtidas
+ por microtomografia de raios X.
+ Este software busca superar desafios inerentes à determinação precisa do
+ REV, um fator crucial para estudos das propriedades petrofísicas, especialmente
+ a porosidade, em escalas representativas.
+ 
 \end_layout
 
 \begin_layout Section
@@ -209,30 +208,14 @@ name "sec:Escopo-do-Problema"
 \end_layout
 
 \begin_layout Standard
-Segundo o CREA/CONFEA um dos quesitos fundamentais que diferenciam a atuação
- de um tecnólogo da atuação de um engenheiro é a capacidade de desenvolver
- um projeto em engenharia; Neste trabalho, desenvolve-se um projeto em engenhari
-a de software aplicado a solução de um problema específico de engenharia
- de petróleo.
- Trabalhando-se com todo ciclo de um projeto, isto é, especificação, elaboração,
- análise, projeto, desenvolvimento, teste e documentação.
- 
-\end_layout
-
-\begin_layout Itemize
-Definir o escopo do projeto de engenharia, a ideia geral do software, acentuar
- sua importância, usos e aplicações em engenharia [de petróleo].
-\end_layout
-
-\begin_layout Itemize
-Delimitar o assunto.
- Situá-lo no tempo e no espaço.
- Situá-lo em relação a outros softwares.
-\end_layout
-
-\begin_layout Itemize
-Neste capítulo podem entrar figuras que ilustram a ideia geral, o detalhamento
- será feito depois, na elaboração.
+O software PetroRev é desenvolvido para automatizar a análise do REV em
+ amostras petrofísicas obtidas por microtomografia de raios X.
+ Essa abordagem representa um avanço significativo, eliminando processos
+ manuais e acelerando análises cruciais para estudos de reservatórios e
+ extração de petróleo.
+ O PetroRev destaca-se por sua relevância na engenharia de petróleo, oferecendo
+ uma ferramenta indispensável para profissionais que buscam compreender
+ as propriedades das rochas com precisão e agilidade.
 \end_layout
 
 \begin_layout Section
@@ -252,25 +235,15 @@ Os objetivos deste projeto de engenharia são:
 
 \begin_layout Itemize
 Objetivo geral:
-\begin_inset Separator latexpar
-\end_inset
-
-
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-Descreva aqui o objetivo geral do projeto de engenharia, incluindo vínculos
- com engenharia de petróleo e com modelagem matemática computacional (ideia
- de lógica, algoritmos,...).
+\begin_layout Standard
+O PetroRev visa desenvolver um software capaz de automatizar a determinação
+ do REV em amostras petrofísicas, agregando valor à engenharia de petróleo
+ mediante a obtenção precisa e eficiente do volume estatisticamente representati
+vo.
 \end_layout
 
-\begin_layout Itemize
-Desenvolver um projeto de engenharia de software para ...[.....descrever de forma
- clara, direta, objetiva, o objetivo geral do software].
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 Objetivos específicos:
 \begin_inset Separator latexpar
@@ -281,35 +254,24 @@ Objetivos específicos:
 
 \begin_deeper
 \begin_layout Itemize
-Modelar física e matematicamente o problema.
+Modelagem física e matemática do problema.
 \end_layout
 
 \begin_layout Itemize
-Modelagem estática do software (diagramas de caso de uso, de pacotes, de
- classes).
+Desenvolvimento de modelagem estática e dinâmica do software.
 \end_layout
 
 \begin_layout Itemize
-Modelagem dinâmica do software (desenvolver algoritmos e diagramas exemplificand
-o os fluxos de processamento).
+Cálculo preciso do REV e porosidade em múltiplas subamostras.
 \end_layout
 
 \begin_layout Itemize
-Calcular XXX[.....descrever de forma clara, direta, objetiva, cada objetivo específic
-o, cada parte do software].
+Realização de simulações para teste e validação do software.
 \end_layout
 
 \begin_layout Itemize
-Calcular XXX[.....descrever de forma clara, direta, objetiva, cada objetivo específic
-o, cada parte do software].
-\end_layout
-
-\begin_layout Itemize
-Simular (realizar simulações para teste do software desenvolvido).
-\end_layout
-
-\begin_layout Itemize
-Implementar manual simplificado de uso do software.
+Elaboração de um manual simplificado de utilização do PetroRev.
+ 
 \end_layout
 
 \end_deeper
@@ -335,86 +297,14 @@ Metodologia utilizada
 \end_layout
 
 \begin_layout Standard
-O software a ser desenvolvido utiliza a metodologia de engenharia de software
- apresentada pelo Prof.
- André Bueno na disciplina de programação e ilustrado na Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:Etapas para o desenvolvimento do software"
-
-\end_inset
-
-.
- Note que o 
-\begin_inset Quotes eld
-\end_inset
-
-Ciclo de Concepção e Análise
-\begin_inset Quotes erd
-\end_inset
-
- é composto por diversas partes representadas neste trabalho em diferentes
- capítulos.
- Os ciclos de planejamento/detalhamento tem seu próprio capítulo, assim
- como o ciclo de construção - implementação.
-\end_layout
-
-\begin_layout Standard
-Esta metodologia é utilizada nas disciplinas:
-\end_layout
-
-\begin_layout Itemize
-LEP01447 : Programação Orientada a Objeto em C++.
-\end_layout
-
-\begin_layout Itemize
-LEP01446 : Programação Prática.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/EngenhariaSoftware-Geral.png
-	lyxscale 25
-	width 100text%
-	height 85theight%
-	keepAspectRatio
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Etapas para o desenvolvimento do software
-\shape italic
- - projeto de engenharia
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:Etapas para o desenvolvimento do software"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
+Para o desenvolvimento deste projeto, adotamos a metodologia de engenharia
+ de software apresentada pelo Prof.
+ André Bueno, complementada pela pesquisa realizada pelo doutorando André
+ e pela Professora Roseane na análise do REV.
+ Essa metodologia, centrada em ciclos de concepção e análise, planejamento/detal
+hamento e construção-implementação, é amplamente embasada na disciplina
+ de Introdução a Projetos: Metodologia Científica e Projeto de Softwares
+ (LEP01582), oferecendo uma base sólida para a criação do PetroRev.
 \end_layout
 
 \end_body

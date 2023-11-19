@@ -147,26 +147,6 @@ name "sec:Elaboração"
 
 \end_layout
 
-\begin_layout Standard
-Depois da definição dos objetivos, da especificação do software e da montagem
- dos primeiros diagramas de caso de uso, a equipe de desenvolvimento do
- projeto de engenharia passa por um processo de elaboração que envolve o
- estudo de conceitos relacionados ao sistema a ser desenvolvido, a análise
- de domínio e a identificação de pacotes.
- 
-\end_layout
-
-\begin_layout Standard
-Na elaboração fazemos uma análise dos requisitos, ajustando os requisitos
- iniciais de forma a desenvolver um sistema útil, que atenda às necessidades
- do usuário e, na medida do possível, permita seu reuso e futura extensão.
-\end_layout
-
-\begin_layout Standard
-Eliminam-se os requisitos "impossíveis" e ajusta-se a idéia do sistema de
- forma que este seja flexível, considerando-se aspectos como custos e prazos.
-\end_layout
-
 \begin_layout Section
 Análise de domínio
 \begin_inset CommandInset label
@@ -178,31 +158,47 @@ name "sec:Análise-de-domínio"
 
 \end_layout
 
-\begin_layout Standard
-Após estudo dos requisitos/especificações do sistema, algumas entrevistas,
- estudos na biblioteca e disciplinas do curso foi possível identificar nosso
- domínio de trabalho:
+\begin_layout Itemize
+
+\series bold
+Engenharia de Petróleo: 
+\series default
+Compreensão das propriedades petrofísicas e sua relevância na indústria
+ petrolífera.
 \end_layout
 
 \begin_layout Itemize
-Definição e caracterização do domínio a ser investigado 
+
+\series bold
+Microtomografia de Raios X: 
+\series default
+Técnica utilizada para a digitalização de amostras rochosas em alta resolução.
 \end_layout
 
 \begin_layout Itemize
-Descrição das áreas/disciplinas relacionadas.
+
+\series bold
+Análise de Imagens: 
+\series default
+Processamento de imagens e algoritmos para identificação de porosidade e
+ sólidos nas amostras.
 \end_layout
 
 \begin_layout Itemize
-Descrição de questões associadas a espaço/tempo (espaço físico, local, instalaçã
-o).
+
+\series bold
+Estatística Aplicada:
+\series default
+ Análise estatística para determinação do REV representativo.
 \end_layout
 
 \begin_layout Itemize
-Fotografias de sistemas equivalentes/parecidos.
-\end_layout
 
-\begin_layout Itemize
-...
+\series bold
+Modelagem Computacional: 
+\series default
+Utilização dos dados obtidos para simulações numéricas em escala de poros.
+ 
 \end_layout
 
 \begin_layout Section
@@ -217,30 +213,82 @@ name "sec:Formulação-teórica"
 \end_layout
 
 \begin_layout Standard
-...coloque aqui texto explicando a formulação física-matemática, a descrição
- das equações que serão utilizadas...
+A formulação teórica do PetroRev é fundamental para compreender as propriedades
+ petrofísicas das amostras rochosas, especialmente a porosidade.
+ A equação de porosidade (ϕ) é a base central para determinar o Volume Elementar
+ Representativo (REV).
+ Esta equação estabelece a relação entre o volume de poros (Vporos) e o
+ volume total da amostra (Vtotal):
 \end_layout
 
 \begin_layout Standard
-...aqui entram figuras, tabelas explicativas, equações a serem utilizadas no
- software...
+\begin_inset Formula $ϕ=\frac{V_{poros}}{V_{total}}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-...logo depois, com os dados levantados na análise de domínio, e esta formulação
- teórica, iremos identificar os pacotes, os assuntos com os quais iremos
- trabalhar...
+Essa equação permite calcular a porosidade em subamostras diferentes, permitindo
+ a identificação do REV mais representativo para análises petrofísicas em
+ escala de poros.
 \end_layout
 
 \begin_layout Standard
-...
- no final da formulação teórica, indicar livros e artigos que tem mais informaçã
-o sobre o assunto...
+Para chegar à determinação do REV, o PetroRev utiliza algoritmos avançados
+ de segmentação de imagem.
+ Esses algoritmos são essenciais para identificar poros e sólidos, proporcionand
+o uma representação detalhada e precisa das amostras rochosas digitalizadas
+ por microtomografia de raios X.
 \end_layout
 
 \begin_layout Standard
-...se vai usar modelos numéricos, colocar seção 3.3.x falando deles; no final
- citar/referenciar fontes...
+
+\end_layout
+
+\begin_layout Standard
+Além da porosidade, A análise estatística desempenha um papel crucial na
+ identificação do Volume Elementar Representativo (REV) no PetroRev.
+ Utilizando dados de porosidade e volumes correspondentes em diferentes
+ subamostras, é possível realizar uma análise estatística para determinar
+ o volume que representa de maneira mais precisa as propriedades petrofísicas
+ em uma escala de poros.
+\end_layout
+
+\begin_layout Standard
+A representação gráfica da porosidade em relação ao volume das subamostras
+ é fundamental nesse processo.
+ Por meio de um gráfico que relaciona a porosidade com o volume de cada
+ subamostra, é possível identificar tendências e padrões que ajudam a determinar
+ o ponto em que a variação dos resultados de porosidade diminui consideravelment
+e.
+ Esse ponto sugere o tamanho do REV, indicando um volume representativo
+ o suficiente para refletir as propriedades petrofísicas em escala de poros.
+\end_layout
+
+\begin_layout Standard
+As interpolações nesse gráfico são essenciais para encontrar um ponto de
+ estabilização na variação da porosidade em relação ao volume.
+ Geralmente, observa-se uma variação significativa da porosidade à medida
+ que o volume das subamostras aumenta.
+ No entanto, em um certo ponto, essa variação tende a se estabilizar.
+ Essa estabilização sugere que o volume atingiu um tamanho estatisticamente
+ representativo para as propriedades de interesse, indicando assim o REV.
+\end_layout
+
+\begin_layout Standard
+A análise estatística desses dados, combinada com as interpolações no gráfico
+ de porosidade em relação ao volume das subamostras, fornece uma abordagem
+ robusta para identificar o REV de maneira estatisticamente significativa.
+\end_layout
+
+\begin_layout Standard
+Esse método de análise estatística, apoiado por gráficos e interpolações,
+ é uma das abordagens-chave no PetroRev para determinar o Volume Elementar
+ Representativo (REV), proporcionando um embasamento estatístico sólido
+ na escolha do volume representativo para simulações e estudos petrofísicos
+ em escala de poros.
+ 
 \end_layout
 
 \begin_layout Section
@@ -248,22 +296,89 @@ Identificação de pacotes – assuntos
 \end_layout
 
 \begin_layout Standard
-...aqui...
+No contexto do PetroRev, diversos pacotes são necessários para abordar as
+ diferentes etapas do processamento e análise das amostras rochosas.
+ Aqui estão alguns pacotes essenciais:
 \end_layout
 
 \begin_layout Itemize
-Nome Pacote: Descrição.
- O que é, para que serve, como se relaciona com os demais pacotes.
+
+\series bold
+Bibliotecas de Processamento de Imagens:
+\series default
+ Pacotes para manipulação, filtragem e preparação das imagens de microtomografia
+ de raios X antes da análise.
 \end_layout
 
 \begin_layout Itemize
-Nome Pacote: Descrição.
- O que é, para que serve, como se relaciona com os demais pacotes.
+
+\series bold
+Bibliotecas de Visão Computacional
+\series default
+: Ferramentas para identificação e segmentação de poros e sólidos nas imagens.
 \end_layout
 
 \begin_layout Itemize
-Nome Pacote: Descrição.
- O que é, para que serve, como se relaciona com os demais pacotes.
+
+\series bold
+Algoritmos de Segmentação
+\series default
+: Desenvolvimento ou utilização de algoritmos para identificação precisa
+ de áreas porosas e não porosas.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Bibliotecas de Análise Numérica:
+\series default
+ Utilização de pacotes para cálculos estatísticos e interpolações para análise
+ de porosidade em relação ao volume das subamostras.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ferramentas de Estatística:
+\series default
+ Pacotes estatísticos para avaliar tendências e estabilização da porosidade
+ em função do volume.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Bibliotecas de Interface Gráfica: 
+\series default
+Desenvolvimento de interfaces para visualização de resultados, gráficos
+ de porosidade versus volume e interação com o usuário.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Ferramentas de Integração e Gerenciamento de Código:
+\series default
+ Utilização de pacotes que facilitem a integração dos diferentes módulos
+ e o gerenciamento do código fonte do software.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Bibliotecas de Testes: 
+\series default
+Ferramentas para validação dos resultados, testes unitários e integração
+ contínua do software.
+ 
+\end_layout
+
+\begin_layout Standard
+Cada um desses pacotes desempenha um papel fundamental no desenvolvimento
+ do PetroRev, desde o processamento inicial das imagens até a análise estatístic
+a para determinação do REV.
+ A escolha e uso adequado desses pacotes são essenciais para o desenvolvimento
+ eficiente e preciso do software.
 \end_layout
 
 \begin_layout Section

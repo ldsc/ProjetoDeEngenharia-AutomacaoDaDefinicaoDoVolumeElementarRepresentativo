@@ -285,7 +285,7 @@ Nome
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+PetroRev
 \end_layout
 
 \end_inset
@@ -307,7 +307,8 @@ Componentes principais
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+Módulos de Pré-processamento, Segmentação, Cálculo de porosidade, Análise
+ Estatística e trabalho com o REV
 \end_layout
 
 \end_inset
@@ -329,7 +330,11 @@ Missão
 \begin_inset Text
 
 \begin_layout Plain Layout
-
+A missão do PetroRev é fornecer uma solução eficiente e precisa para a análise
+ do Volume Elementar Representativo (REV) em amostras petrofísicas.
+ Ao automatizar o processo de determinação do REV, o software busca oferecer
+ uma ferramenta robusta para a engenharia de petróleo, permitindo estudos
+ confiáveis das propriedades petrofísicas em escalas representativas.
 \end_layout
 
 \end_inset
@@ -374,17 +379,80 @@ especificação
 \end_layout
 
 \begin_layout Standard
-Apresenta-se a seguir a especificação do software.
+O software PetroRev é uma aplicação destinada à análise automatizada do
+ Volume Elementar Representativo (REV) em amostras petrofísicas obtidas
+ por microtomografia de raios X.
+ O software é composto por diversos módulos interligados, cada um desempenhando
+ funções específicas para alcançar a determinação precisa do REV e a análise
+ das propriedades petrofísicas.
 \end_layout
 
 \begin_layout Standard
-....coloque aqui a especificação...
+Componentes Principais:
 \end_layout
 
-\begin_layout Standard
-...eventualmente coloque imagem ilustrativa geral, mostrando o que se pretente
- (primeira ideia) do software; normalmente esta figura já será mais detalhada
- que aquela apresentada no escopo...
+\begin_layout Subsection
+Módulo de Pré-processamento de Imagens:
+\end_layout
+
+\begin_layout Itemize
+Carrega e prepara as imagens da microtomografia para análise.
+\end_layout
+
+\begin_layout Itemize
+Realiza a padronização e otimização das imagens para a segmentação.
+\end_layout
+
+\begin_layout Subsection
+Módulo de Segmentação: 
+\end_layout
+
+\begin_layout Itemize
+Desenvolve algoritmos para identificar áreas representativas de poros e
+ sólidos
+\end_layout
+
+\begin_layout Itemize
+Realiza a segmentação nos três eixos da amostra para detalhamento minucioso.
+\end_layout
+
+\begin_layout Subsection
+Módulo de Cálculo de Porosidade: 
+\end_layout
+
+\begin_layout Itemize
+Divide a amostra em múltiplas subamostras ao longo dos três eixos.
+\end_layout
+
+\begin_layout Itemize
+Calcula a porosidade individualmente para cada subamostra identificada.
+\end_layout
+
+\begin_layout Subsection
+Módulo de Análise Estatística: 
+\end_layout
+
+\begin_layout Itemize
+Avalia estatisticamente as porosidades obtidas para determinar o REV mais
+ representativo.
+\end_layout
+
+\begin_layout Itemize
+Seleciona o volume estatisticamente relevante para análises posteriores.
+\end_layout
+
+\begin_layout Subsection
+Módulo de Seleção e Trabalho com o REV:
+\end_layout
+
+\begin_layout Itemize
+Foca exclusivamente na subamostra identificada como REV.
+\end_layout
+
+\begin_layout Itemize
+Permite análises detalhadas e extração de propriedades específicas da rocha
+ a partir do REV selecionado.
+ 
 \end_layout
 
 \begin_layout Section
@@ -469,8 +537,7 @@ RF-01
 \begin_inset Text
 
 \begin_layout Plain Layout
-O sistema deve conter uma base de dados xxx.
- O usuário deve ser capaz de xxx.
+O usuário deve consegior carregar as imagens das lâminas da amostra.
 \end_layout
 
 \end_inset
@@ -509,7 +576,7 @@ RF-02
 \begin_inset Text
 
 \begin_layout Plain Layout
-O usuário deverá ter liberdade para xxxx.
+Realizar o pré-processamento das imagens.
 \end_layout
 
 \end_inset
@@ -548,7 +615,7 @@ RF-03
 \begin_inset Text
 
 \begin_layout Plain Layout
-Deve permitir o carregamento de arquivos criados pelo software.
+Realizar a segmentação das regiões de interesse.
 \end_layout
 
 \end_inset
@@ -590,7 +657,7 @@ RF-04
 \begin_inset Text
 
 \begin_layout Plain Layout
-Deve permitir a escolha da equação xxx.
+Realizar calculos de porosidades como na literatura.
 \end_layout
 
 \end_inset
@@ -632,48 +699,7 @@ RF-05
 \begin_inset Text
 
 \begin_layout Plain Layout
-O usuário deve ter tal liberdade para escolher xxx.
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\begin_inset Tabular
-<lyxtabular version="3" rows="1" columns="2">
-<features tabularvalignment="middle" tabularwidth="14cm">
-<column alignment="center" valignment="top">
-<column alignment="block" valignment="top" width="11.5cm">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\series bold
-RF-06
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="block" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-O usuário poderá plotar seus resultados em um gráfico.
- O gráfico poderá ser salvo como imagem ou ter seus dados exportados como
- texto.
+Realizar a análise estatistica e identificação do REV
 \end_layout
 
 \end_inset
@@ -736,7 +762,7 @@ RNF-01
 \begin_inset Text
 
 \begin_layout Plain Layout
-Os cálculos devem ser feitos utilizando-se xxxx.
+Suas primeiras versões deve suportar apenas o SO Linux
 \end_layout
 
 \end_inset
@@ -778,19 +804,7 @@ RNF-02
 \begin_inset Text
 
 \begin_layout Plain Layout
-O programa deverá ser multi-plataforma, podendo ser executado em 
-\emph on
-Windows
-\emph default
-, 
-\emph on
-GNU/Linux
-\emph default
- ou 
-\emph on
-Mac
-\emph default
-.
+Permitir plotagem de gráficos para representação de porosidade por volume.
 \end_layout
 
 \end_inset
@@ -798,6 +812,99 @@ Mac
 </row>
 </lyxtabular>
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle" tabularwidth="14cm">
+<column alignment="center" valignment="top">
+<column alignment="block" valignment="top" width="11cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+RNF-03
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="block" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Oferecer ao usuário liberdade de escolher entre diferentes fórmulas na segmentaç
+ão.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="2">
+<features tabularvalignment="middle" tabularwidth="14cm">
+<column alignment="center" valignment="top">
+<column alignment="block" valignment="top" width="11cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+RNF-04
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="block" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Possibilitar a exportação de dados para o uso em outras ferramentas ou plataform
+as.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
 \end_inset
 
 
@@ -961,149 +1068,6 @@ do software
 
 \end_layout
 
-\begin_layout Standard
-A Tabela 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "cap:Exemplo-de-um-caso-de-uso (tabela)"
-
-\end_inset
-
- mostra a descrição de um caso de uso.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float table
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Caso de uso 1
-\begin_inset CommandInset label
-LatexCommand label
-name "cap:Exemplo-de-um-caso-de-uso (tabela)"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset space ~
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Tabular
-<lyxtabular version="3" rows="4" columns="2">
-<features tabularvalignment="middle">
-<column alignment="center" valignment="top">
-<column alignment="block" valignment="top" width="10cm">
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Nome do caso de uso:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Resumo/descrição:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Etapas:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-<row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-Cenários alternativos:
-\end_layout
-
-\end_inset
-</cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
-\begin_inset Text
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-</cell>
-</row>
-</lyxtabular>
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Diagrama de caso de uso geral
 \begin_inset CommandInset label
@@ -1126,23 +1090,18 @@ status open
 \end_layout
 
 \begin_layout Standard
-....coloque aqui caso de uso geral, descrição + figura(s)...
-\end_layout
-
-\begin_layout Standard
-exemplo...
-\end_layout
-
-\begin_layout Standard
-O diagrama de caso de uso geral da Figura 
+O diagrama de caso de uso geral (
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "cap:Diagrama-caso-uso-geral"
 
 \end_inset
 
- mostra o usuário acessando os sistemas de ajuda do software, calculando
- a área de uma função ou analisando resultados.
+) do PetroRev agora reflete com mais precisão a interação entre o usuário
+ e o sistema.
+ O usuário carrega as imagens, enquanto o código executa as etapas de pré-proces
+samento, segmentação, cálculo de porosidade e análise estatística.
+ O usuário, então, pode selecionar o REV com base nos resultados apresentados.
  
 \end_layout
 
@@ -1188,124 +1147,6 @@ name "cap:Diagrama-caso-uso-geral"
 \end_inset
 
 
-\end_layout
-
-\begin_layout Subsection
-Diagrama de caso de uso específico
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec: Diagrama de caso de uso específico"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-do software
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-....coloque aqui casos de uso específicos, descrição + figura(s)...
-\end_layout
-
-\begin_layout Standard
-exemplo...O caso de uso Calcular área função descrito na Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "cap:Diagrama-caso-uso-geral"
-
-\end_inset
-
- e na Tabela 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "cap:Exemplo-de-um-caso-de-uso (tabela)"
-
-\end_inset
-
- é detalhado na Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "cap:Diagrama-de-caso-de-uso-especifico:Titulo"
-
-\end_inset
-
-.
- O usuário criará um objeto função matemática, um objeto para sua integração;
- em seguida, definirá o intervalo de integração, calculará a área da função
- criada e,  por fim, analisará os resultados (eventualmente gerará gráficos
- com os resultados obtidos utilizando um sistema externo, como o software
- 
-\emph on
-gnuplot
-\emph default
-).
- Este diagrama de caso de uso ilustra as etapas a serem executadas pelo
- usuário ou sistema, a iteração do usuário com o sistema.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename imagens/DiagramaDeCasoDeUso-Especifico-AnaliseDosResultados.png
-	width 100text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Diagrama de caso de uso específico – Título
-\begin_inset CommandInset label
-LatexCommand label
-name "cap:Diagrama-de-caso-de-uso-especifico:Titulo"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Description
-Nota: 
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Não perca de vista a visão do todo; do projeto de engenharia como um todo.
- Cada capítulo, cada seção, cada parágrafo deve se encaixar.
- Este é um diferencial fundamental do engenheiro em relação ao técnico,
- a capacidade de desenvolver projetos, de ver o todo e suas diferentes partes,
- de modelar processos/sistemas/produtos de engenharia.
 \end_layout
 
 \end_body
