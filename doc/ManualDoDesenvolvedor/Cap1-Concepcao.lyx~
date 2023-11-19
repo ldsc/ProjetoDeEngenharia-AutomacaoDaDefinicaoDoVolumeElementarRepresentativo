@@ -392,11 +392,8 @@ Componentes Principais:
 \end_layout
 
 \begin_layout Subsection
-Módulo de Pré-processamento de Imagens:
-\end_layout
-
-\begin_layout Itemize
-Carrega e prepara as imagens da microtomografia para análise.
+Módulo de Pré-processamento de Imagens: • Carrega e prepara as imagens da
+ microtomografia para análise.
 \end_layout
 
 \begin_layout Itemize
@@ -404,12 +401,8 @@ Realiza a padronização e otimização das imagens para a segmentação.
 \end_layout
 
 \begin_layout Subsection
-Módulo de Segmentação: 
-\end_layout
-
-\begin_layout Itemize
-Desenvolve algoritmos para identificar áreas representativas de poros e
- sólidos
+Módulo de Segmentação: • Desenvolve algoritmos para identificar áreas representa
+tivas de poros e sólidos
 \end_layout
 
 \begin_layout Itemize
@@ -417,11 +410,8 @@ Realiza a segmentação nos três eixos da amostra para detalhamento minucioso.
 \end_layout
 
 \begin_layout Subsection
-Módulo de Cálculo de Porosidade: 
-\end_layout
-
-\begin_layout Itemize
-Divide a amostra em múltiplas subamostras ao longo dos três eixos.
+Módulo de Cálculo de Porosidade: • Divide a amostra em múltiplas subamostras
+ ao longo dos três eixos.
 \end_layout
 
 \begin_layout Itemize
@@ -429,12 +419,8 @@ Calcula a porosidade individualmente para cada subamostra identificada.
 \end_layout
 
 \begin_layout Subsection
-Módulo de Análise Estatística: 
-\end_layout
-
-\begin_layout Itemize
-Avalia estatisticamente as porosidades obtidas para determinar o REV mais
- representativo.
+Módulo de Análise Estatística: Avalia estatisticamente as porosidades obtidas
+ para determinar o REV mais representativo.
 \end_layout
 
 \begin_layout Itemize
