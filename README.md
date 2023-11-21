@@ -11,9 +11,7 @@ O PetroRev é um software desenvolvido em C++ que automatiza o processo de anál
 
 ## Estrutura do Projeto
 
-- **`docs/`:** Documentação do projeto.
-- **`examples/`:** Exemplos de imagens e dados para testes.
-- **`build/`:** Diretório para compilação do código.
+- **`doc/`:** Documentação do projeto.
 
 
 ## Contribuições
