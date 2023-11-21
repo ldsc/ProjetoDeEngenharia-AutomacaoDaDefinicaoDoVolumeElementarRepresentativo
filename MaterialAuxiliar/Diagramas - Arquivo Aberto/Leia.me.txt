@@ -1,0 +1,3 @@
+Para conseguir abrir esse arquivo e realizar ajustes no diagrama é nescessário que tenha instalado no seu navegador o seguinte software:
+
+https://astah.net/pt/
