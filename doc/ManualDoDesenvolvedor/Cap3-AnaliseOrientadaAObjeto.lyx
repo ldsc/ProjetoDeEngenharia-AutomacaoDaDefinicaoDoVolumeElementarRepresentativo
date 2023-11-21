@@ -228,11 +228,7 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-<<<<<<< HEAD:doc/manualDesenvolvedor-lyx/Cap3-AnaliseOrientadaAObjeto.lyx
-	filename imagens/DiagramaClasses.png
-=======
 	filename imagens/DiagramaDeClasses.png
->>>>>>> 799275a (Atualizações diversas nas imagens e arquivos do lyx):doc/ManualDoDesenvolvedor/Cap3-AnaliseOrientadaAObjeto.lyx
 	lyxscale 50
 	width 100text%
 
@@ -291,15 +287,44 @@ name "subsec:Dicionário-de-classes"
 \end_layout
 
 \begin_layout Itemize
-Classe CNomeClasse: representa.....
+Classe Rocha: Representa as propriedades e características da amostra de
+ rocha a ser analisada.
+ Pode conter informações como tipo de rocha, densidade, porosidade inicial,
+ entre outros atributos físicos.
 \end_layout
 
 \begin_layout Itemize
-Classe CNomeClasse: representa.....
+Classe PreProcessamento: Responsável por preparar as imagens digitais da
+ amostra de rocha para análise.
+ Realiza operações como normalização, redução de ruídos e otimização das
+ imagens de microtomografia para facilitar a segmentação.
 \end_layout
 
 \begin_layout Itemize
-Classe CNomeClasse: representa.....
+Classe CalculoPorosidade: Realiza os cálculos matemáticos necessários para
+ determinar a porosidade das amostras segmentadas.
+ Utiliza algoritmos específicos para calcular a porosidade em cada subamostra
+ identificada.
+\end_layout
+
+\begin_layout Itemize
+Classe AnaliseEstatistica: Efetua a análise estatística dos dados de porosidade
+ obtidos, buscando identificar o Volume Elementar Representativo (REV).
+ Realiza comparações estatísticas entre as subamostras para encontrar a
+ representatividade estatística para futuras simulações.
+\end_layout
+
+\begin_layout Itemize
+Classe InterfaceGrafica: Oferece uma interação intuitiva entre o usuário
+ e o sistema PetroRev.
+ Permite o carregamento de imagens, visualização dos resultados, interação
+ com as funcionalidades do software e a seleção do REV identificado.
+\end_layout
+
+\begin_layout Itemize
+classe Segmentação: Implementa algoritmos e métodos para identificar e separar
+ regiões de interesse, como poros e sólidos, nas imagens da amostra de rocha.
+ Divide a amostra em áreas distintas para permitir análises posteriores.
 \end_layout
 
 \begin_layout Section
@@ -384,11 +409,11 @@ reference "cap:Diagrama-de-sequencia"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Itemize
-[Aqui a ênfase é o entendimento da sequência com que as mensagens são trocadas,
- a ordem temporal.]
+ Esse diagrama ilustra a interação entre as classes durante um processo
+ simplificado.
+ A interface carrega as imagens, iniciando uma sequência de eventos que
+ envolvem o pré-processamento, segmentação, cálculo de porosidade, análise
+ estatística e a interação com a classe Rocha para obter os dados necessários.
 \end_layout
 
 \begin_layout Standard
@@ -401,13 +426,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-<<<<<<< HEAD:doc/manualDesenvolvedor-lyx/Cap3-AnaliseOrientadaAObjeto.lyx
-	filename imagens/DiagramaSequencia-Eventos.png
-	lyxscale 40
-=======
 	filename imagens/DiagramaDeSequencia-Eventos.png
 	lyxscale 50
->>>>>>> 799275a (Atualizações diversas nas imagens e arquivos do lyx):doc/ManualDoDesenvolvedor/Cap3-AnaliseOrientadaAObjeto.lyx
 	width 100text%
 
 \end_inset
@@ -442,152 +462,6 @@ status open
 
 \begin_layout Plain Layout
 deve mostrar uma sequência geral
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Subsection
-
-\shape italic
-\emph on
-Diagrama de sequência específico
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec: Diagrama de sequência específico"
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-...
-\end_layout
-
-\begin_layout Itemize
-[deve mostrar uma sequência específica; NÃO É PARA REPETIR O GERAL COM 1-2
- coisas diferentes!
-\end_layout
-
-\begin_layout Standard
-é um novo diagrama; detalhando algo! ]
-\end_layout
-
-\begin_layout Section
-Diagrama de comunicação
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-comunicação
-\end_layout
-
-\end_inset
-
- – colaboração
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-colaboração
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "subsec:Diagrama-de-Comunicação"
-
-\end_inset
-
-
-\begin_inset Index idx
-status collapsed
-
-\begin_layout Plain Layout
-Diagrama de colaboração
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "par:Diagrama-de-colaboração:"
-
-\end_inset
-
- 
-\end_layout
-
-\begin_layout Standard
-No diagrama de comunicação o foco é a interação e a troca de mensagens e
- dados entre os objetos.
- 
-\end_layout
-
-\begin_layout Itemize
-[Pode ser a repetição de um diagrama de sequência; mas note que o formato
- do gráfico é diferente, aqui a ênfase é o entendimento das mensagens que
- chegam e saem de cada objeto.]
-\end_layout
-
-\begin_layout Standard
-Veja na Figura 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "subsec:Diagrama-de-Comunicação"
-
-\end_inset
-
- o diagrama de comunicação mostrando a sequência de blablabla.
- Observe que ....
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-placement H
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-<<<<<<< HEAD:doc/manualDesenvolvedor-lyx/Cap3-AnaliseOrientadaAObjeto.lyx
-	filename imagens/DiagramaComunicacao.png
-=======
-	filename imagens/DiagramaDeComunicacao.png
-	lyxscale 85
->>>>>>> 799275a (Atualizações diversas nas imagens e arquivos do lyx):doc/ManualDoDesenvolvedor/Cap3-AnaliseOrientadaAObjeto.lyx
-	width 100text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-Diagrama de comunicação
-\begin_inset CommandInset label
-LatexCommand label
-name "cap:Diagrama-de-comunicação"
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -641,23 +515,13 @@ reference "cap:Diagrama-de-maquina-de-estado"
 
 \end_inset
 
- o diagrama de máquina de estado para o objeto XXX.
- Observe que....
-\end_layout
-
-\begin_layout Itemize
-Lembre-se, são os estados de um objeto específico e não uma sequência de
- cálculo; as sequência já foram mostrados nos diagramas de sequência e comunicaç
-ão!!
-\end_layout
-
-\begin_layout Itemize
-Vou repetir; Não faça o diagrama de máquina de estado como sendo uma repetição
- dos diagramas de sequência! 
-\end_layout
-
-\begin_layout Itemize
-Este diagrama trata dos estados de um objeto único/específico!
+, este diagrama de estado representa o fluxo de estados durante a etapa
+ de pré-processamento no PetroRev.
+ Começando com o início do pré-processamento após o carregamento das imagens,
+ passando para o estado de processamento em andamento e finalizando com
+ a notificação de conclusão.
+ Caso ocorra algum erro durante o pré-processamento, o sistema transita
+ para o estado de erro, notificando o usuário e sugerindo possíveis alternativas.
 \end_layout
 
 \begin_layout Standard
@@ -670,13 +534,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-<<<<<<< HEAD:doc/manualDesenvolvedor-lyx/Cap3-AnaliseOrientadaAObjeto.lyx
-	filename imagens/DiagramaEstados.png
-	lyxscale 30
-=======
 	filename imagens/DiagramaDeEstado-ClasseSimulador.png
 	lyxscale 85
->>>>>>> 799275a (Atualizações diversas nas imagens e arquivos do lyx):doc/ManualDoDesenvolvedor/Cap3-AnaliseOrientadaAObjeto.lyx
 	width 100text%
 
 \end_inset
@@ -720,10 +579,6 @@ name "sec: Diagrama de atividades"
 \end_layout
 
 \begin_layout Standard
-.....
-\end_layout
-
-\begin_layout Standard
 Veja na Figura 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -731,29 +586,10 @@ reference "cap:Diagrama-de-atividades"
 
 \end_inset
 
- o diagrama de atividades correspondente a uma atividade específica do diagrama
- de máguina de estado.
- Observe que....
-\end_layout
-
-\begin_layout Standard
-...descrever em detalhes uma atividade específica..não pode ser a sequência de
- uso geral, trata-se de um caso específico, detalhado do diagrama de máquina
- de estado.
-\end_layout
-
-\begin_layout Itemize
-Lembrar que o diagrama de sequência é a representação de um método de cálculo
- específico.
- 
-\end_layout
-
-\begin_layout Itemize
-Não é para fazer o diagrama de atividades do método de gerenciamento!!!
-\end_layout
-
-\begin_layout Itemize
-Coloque aqui um diagrama de atividades que mostra contas/cálculos! 
+ o diagrama de atividade do PetroRev descreve as diferentes atividades executada
+s pelo sistema em uma sequência linear.
+ Cada atividade representa uma etapa do processo de análise do REV, desde
+ o carregamento das imagens até a seleção final do volume representativo.
 \end_layout
 
 \begin_layout Standard
@@ -766,13 +602,8 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-<<<<<<< HEAD:doc/manualDesenvolvedor-lyx/Cap3-AnaliseOrientadaAObjeto.lyx
-	filename imagens/DiagramaAtividade.png
-	lyxscale 40
-=======
 	filename imagens/DiagramaDeAtividade-ClasseIntegral-MetodoArea.png
 	lyxscale 85
->>>>>>> 799275a (Atualizações diversas nas imagens e arquivos do lyx):doc/ManualDoDesenvolvedor/Cap3-AnaliseOrientadaAObjeto.lyx
 	width 100text%
 
 \end_inset

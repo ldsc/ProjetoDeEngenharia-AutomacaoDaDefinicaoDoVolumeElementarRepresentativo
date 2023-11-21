@@ -393,19 +393,17 @@ name "sec: Diagrama de pacotes – assuntos"
 \end_layout
 
 \begin_layout Standard
-...aqui...
-\end_layout
-
-\begin_layout Standard
-coloque aqui texto falando do diagrama de pacotes, referencie a figura.
- Veja Figura 
+Neste exemplo, 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:Diagrama-de-Pacotes"
 
 \end_inset
 
-.
+, o pacote "PetroRev" representa o sistema como um todo e é composto por
+ diferentes módulos ou pacotes que desempenham funções específicas no software.
+ Cada pacote possui suas próprias funcionalidades, como pré-processamento,
+ segmentação, cálculo de porosidade, entre outros.
 \end_layout
 
 \begin_layout Standard

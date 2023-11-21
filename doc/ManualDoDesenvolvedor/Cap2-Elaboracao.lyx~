@@ -373,6 +373,14 @@ Ferramentas para validação dos resultados, testes unitários e integração
  
 \end_layout
 
+\begin_layout Standard
+Cada um desses pacotes desempenha um papel fundamental no desenvolvimento
+ do PetroRev, desde o processamento inicial das imagens até a análise estatístic
+a para determinação do REV.
+ A escolha e uso adequado desses pacotes são essenciais para o desenvolvimento
+ eficiente e preciso do software.
+\end_layout
+
 \begin_layout Section
 Diagrama de pacotes – assuntos
 \begin_inset CommandInset label
