@@ -97,11 +97,12 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle fancy
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 1635264300 "andreduartebueno" andreduartebueno@gmail.com
 \end_header
 
 \begin_body
@@ -156,26 +157,130 @@ name "sec:Análise-de-domínio"
 \end_inset
 
 
+\change_inserted 1635264300 1700747816
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 1635264300 1700748329
+A subdivisão a seguir tem como base a tabela de conhecimentos do CNPq.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700748346
+coloquei a tabela em arquivo 
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700748348
+veja MaterialAuxiliar/TabelaAreasConhecimento-Assuntos.dat
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700748358
+também tem no site do cnpq;
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700748378
+a ideia é que na hora de subdividir usem sempre a subdivisão que já existe
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
-Engenharia de Petróleo: 
-\series default
+Engenharia de Petróleo
+\change_inserted 1635264300 1700747735
+/Petrofísica
+\change_unchanged
+: 
+\change_inserted 1635264300 1700746612
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Compreensão das propriedades petrofísicas e sua relevância na indústria
  petrolífera.
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 
 \series bold
 Microtomografia de Raios X: 
-\series default
-Técnica utilizada para a digitalização de amostras rochosas em alta resolução.
+\change_inserted 1635264300 1700748396
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700748426
+veja qual área do conhecimento engloba experimentos de mivrotomografia coloque
+ aqui o nome da área
+\change_unchanged
+
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
 \begin_layout Itemize
+Técnica utilizada para a digitalização de amostras rochosas 
+\change_inserted 1635264300 1700746713
+3D 
+\change_unchanged
+em alta resolução.
+\change_inserted 1635264300 1700746745
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700746779
+para amostrar do pré-sal tem de incluir a tomografia...pois tem poros muito
+ grandes.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700746794
+então troque por tomografia e microtimografia
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_deleted 1635264300 1700748574
 
 \series bold
 Análise de Imagens: 
@@ -189,18 +294,112 @@ Processamento de imagens e algoritmos para identificação de porosidade e
 \series bold
 Estatística Aplicada:
 \series default
- Análise estatística para determinação do REV representativo.
+ 
+\change_inserted 1635264300 1700746618
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748659
+1.02.02.00-5 Estatística
 \end_layout
 
 \begin_layout Itemize
 
+\change_inserted 1635264300 1700748659
+1.02.02.07-2 Planejamento de Experimentos
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748659
+1.02.02.08-0 Análise de Dados
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748659
+1.02.00.00-2 Probabilidade e Estatística 
+\end_layout
+
+\begin_layout Itemize
+Análise estatística para determinação do REV representativo.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
 \series bold
 Modelagem Computacional: 
-\series default
+\change_inserted 1635264300 1700746619
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748536
+1.03.03.00-6 Metodologia e Técnicas da Computação
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748613
+1.03.03.01-4 Linguagens de Programação
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748619
+Desenvolvimento de códigos em C++
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748605
+1.03.03.02-2 Engenharia de Software
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748611
+Modelagem UML do software
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748536
+1.03.03.05-7 Processamento Gráfico (Graphics)
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Utilização dos dados obtidos para simulações numéricas em escala de poros.
  
 \end_layout
 
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748577
+Processamento de imagens com a aplicação de filtros, métodos de segmentação
+ e métodos de determinação de propriedades geométricas das imagens, por
+ exemplo a porosidade das amostras.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748577
+Desenvolvimento de algorimo que varia o tamanho do REV e determina a porosidade.
+\end_layout
+
+\end_deeper
 \begin_layout Section
 Formulação teórica
 \begin_inset CommandInset label
@@ -304,75 +503,195 @@ No contexto do PetroRev, diversos pacotes são necessários para abordar as
 \begin_layout Itemize
 
 \series bold
-Bibliotecas de Processamento de Imagens:
+Biblioteca
+\change_deleted 1635264300 1700748852
+s
+\change_unchanged
+ de Processamento de Imagens:
 \series default
- Pacotes para manipulação, filtragem e preparação das imagens de microtomografia
+ 
+\change_inserted 1635264300 1700748739
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pacotes para manipulação, filtragem e preparação das imagens de microtomografia
  de raios X antes da análise.
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 
 \series bold
-Bibliotecas de Visão Computacional
+Biblioteca
+\change_deleted 1635264300 1700748854
+s
+\change_unchanged
+ de Visão Computacional
 \series default
-: Ferramentas para identificação e segmentação de poros e sólidos nas imagens.
+: 
+\change_inserted 1635264300 1700748742
+
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
+Ferramentas para identificação e segmentação de poros e sólidos nas imagens.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_inserted 1635264300 1700748855
 
 \series bold
-Algoritmos de Segmentação
+Biblioteca
+\change_deleted 1635264300 1700748857
+Algoritmos 
+\change_inserted 1635264300 1700748857
+ 
+\change_unchanged
+de Segmentação
 \series default
-: Desenvolvimento ou utilização de algoritmos para identificação precisa
- de áreas porosas e não porosas.
+: 
+\change_inserted 1635264300 1700748757
+
 \end_layout
 
+\begin_deeper
 \begin_layout Itemize
+
+\change_deleted 1635264300 1700748863
+Desenvolvimento ou u
+\change_inserted 1635264300 1700748863
+U
+\change_unchanged
+tilização de algoritmos para 
+\change_inserted 1635264300 1700748804
+segmentação das imagens
+\change_deleted 1635264300 1700748801
+identificação precisa de áreas porosas e não porosas.
+\change_unchanged
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_deleted 1635264300 1700748827
 
 \series bold
 Bibliotecas de Análise Numérica:
 \series default
- Utilização de pacotes para cálculos estatísticos e interpolações para análise
- de porosidade em relação ao volume das subamostras.
+ 
+\change_inserted 1635264300 1700748770
+
 \end_layout
 
+\begin_deeper
+\begin_layout Itemize
+
+\change_deleted 1635264300 1700748829
+Utilização de pacotes para cálculos estatísticos e interpolações para análise
+ de porosidade em relação ao volume das subamostras.
+\change_unchanged
+
+\end_layout
+
+\end_deeper
 \begin_layout Itemize
 
 \series bold
 Ferramentas de Estatística:
 \series default
- Pacotes estatísticos para avaliar tendências e estabilização da porosidade
+ 
+\change_inserted 1635264300 1700748772
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Pacotes estatísticos para avaliar tendências e estabilização da porosidade
  em função do volume.
+\change_inserted 1635264300 1700748834
+
 \end_layout
 
 \begin_layout Itemize
 
+\change_inserted 1635264300 1700748834
+Utilização de pacotes para cálculos estatísticos e interpolações para análise
+ de porosidade em relação ao volume das subamostras.
+\change_unchanged
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\change_deleted 1635264300 1700748882
+
 \series bold
-Bibliotecas de Interface Gráfica: 
-\series default
+Bibliotecas de 
+\change_unchanged
+Interface Gráfica: 
+\change_inserted 1635264300 1700748774
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Desenvolvimento de interfaces para visualização de resultados, gráficos
  de porosidade versus volume e interação com o usuário.
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
+
+\change_deleted 1635264300 1700748894
 
 \series bold
 Ferramentas de Integração e Gerenciamento de Código:
 \series default
  Utilização de pacotes que facilitem a integração dos diferentes módulos
  e o gerenciamento do código fonte do software.
+\change_inserted 1635264300 1700748898
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700748913
+atividade não é parte do software, não é um componente
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Bibliotecas de Testes: 
-\series default
+\change_inserted 1635264300 1700748779
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
 Ferramentas para validação dos resultados, testes unitários e integração
  contínua do software.
  
 \end_layout
 
+\end_deeper
 \begin_layout Standard
 Cada um desses pacotes desempenha um papel fundamental no desenvolvimento
  do PetroRev, desde o processamento inicial das imagens até a análise estatístic
@@ -422,6 +741,11 @@ status open
 \end_inset
 
 
+\change_inserted 1635264300 1700746680
+retire integração de módulos; não é um componente do softweare é uma atividade
+ a ser realizada
+\change_unchanged
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -462,6 +786,33 @@ Não perca de vista a visão do todo; do projeto de engenharia como um todo.
  Este é um diferencial fundamental do engenheiro em relação ao técnico,
  a capacidade de desenvolver projetos, de ver o todo e suas diferentes partes,
  de modelar processos/sistemas/produtos de engenharia.
+\change_inserted 1635264300 1700747700
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700747712
+Artigo que vale ler, trata do assunto
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700747707
+https://sbgf.org.br/mysbgf/eventos/expanded_abstracts/VII_SimBGf/Avalia%C3%A7%C3%A
+3o%20do%20volume%20representativo%20elementar%20de%20uma%20rocha%20carbon%C3%A1t
+ica%20heterog%C3%AAnea%20utilizando-se%20microtomografia%20computadorizada%20de%
+20raios%20X%20e%20simula%C3%A7%C3%A3o%20num%C3%A9rica.pdf
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \end_body
