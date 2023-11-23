@@ -96,11 +96,12 @@
 \papercolumns 1
 \papersides 2
 \paperpagestyle fancy
-\tracking_changes false
+\tracking_changes true
 \output_changes false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author 1635264300 "andreduartebueno" andreduartebueno@gmail.com
 \end_header
 
 \begin_body
@@ -181,15 +182,39 @@ today ele vai colocar data no material impresso
 \end_layout
 
 \begin_layout Standard
-O presente projeto de engenharia, desenvolve-se o software PetroRev, uma
- aplicação direcionada à engenharia de petróleo que adota o paradigma da
- orientação a objetos.
+
+\change_deleted 1635264300 1700741465
+O
+\change_inserted 1635264300 1700741465
+No
+\change_unchanged
+ presente projeto de engenharia
+\change_deleted 1635264300 1700741467
+,
+\change_unchanged
+ desenvolve-se o software PetroRev, uma aplicação direcionada à engenharia
+ de petróleo que adota o paradigma da orientação a objetos.
+
+\change_inserted 1635264300 1700741608
+ O mesmo 
+\change_deleted 1635264300 1700741610
+
 \end_layout
 
 \begin_layout Standard
-O PetroRev surge como resposta à necessidade de automatização na análise
- do Volume Elementar Representativo (REV) em amostras petrofísicas, obtidas
- por microtomografia de raios X.
+
+\change_deleted 1635264300 1700741610
+O PetroRev 
+\change_unchanged
+surge como resposta à necessidade de automatização na análise do 
+\emph on
+Volume Elementar Representativo (REV)
+\emph default
+ em amostras petrofísicas
+\change_deleted 1635264300 1700741494
+,
+\change_unchanged
+ obtidas por microtomografia de raios X.
  Este software busca superar desafios inerentes à determinação precisa do
  REV, um fator crucial para estudos das propriedades petrofísicas, especialmente
  a porosidade, em escalas representativas.
@@ -208,6 +233,8 @@ name "sec:Escopo-do-Problema"
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted 1635264300 1700742064
 O software PetroRev é desenvolvido para automatizar a análise do REV em
  amostras petrofísicas obtidas por microtomografia de raios X.
  Essa abordagem representa um avanço significativo, eliminando processos
@@ -216,6 +243,87 @@ O software PetroRev é desenvolvido para automatizar a análise do REV em
  O PetroRev destaca-se por sua relevância na engenharia de petróleo, oferecendo
  uma ferramenta indispensável para profissionais que buscam compreender
  as propriedades das rochas com precisão e agilidade.
+\change_inserted 1635264300 1700742071
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700741965
+Nathan, este parágrafo todo tem de ser refeito, pois o título da seção é
+ ESCOPO DO PROBLEMA e você no parágrafo fala do software ou seja, já fala
+ da solução!
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700741975
+Aqui deve descrever qual o problema de engenharia, explicar o mesmo;
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700742078
+Por exemplo o texto abaixo:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 1635264300 1700742118
+A determinação de propriedades de rochas reservatório de petróleo tem sido
+ feita através da análise de amostras cilíndricas em laboratórios de petrofísica
+ ou através da análise de imagens de rochas obtidas através da tomografia
+ (tomografia, microtomografia ou nanotomografia a depender da escala de
+ interesse).
+ 
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 1635264300 1700742198
+Rochas do pré-sal tem uma variação muito grande na sua distribuição de tamanho
+ de poros, de forma que a determinação do 
+\emph on
+Volume Elementar Representativo (REV) 
+\emph default
+a ser utilizado nas simulações requer uma série de estudos em laboratório,
+ o que pode ser demorado e envolver altos custos.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted 1635264300 1700742247
+A solução através da análise de imagens mostra-se portanto como algo a ser
+ estudado.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700742268
+melhore o texto com base na realidade das amostras que vocês tem; com os
+ problemas que tem encontrado;
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700742284
+se possível cite exemplos de problemas, com referência a artigos.
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Section
@@ -237,13 +345,23 @@ Os objetivos deste projeto de engenharia são:
 Objetivo geral:
 \end_layout
 
-\begin_layout Standard
-O PetroRev visa desenvolver um software capaz de automatizar a determinação
- do REV em amostras petrofísicas, agregando valor à engenharia de petróleo
- mediante a obtenção precisa e eficiente do volume estatisticamente representati
-vo.
+\begin_deeper
+\begin_layout Itemize
+
+\change_deleted 1635264300 1700742309
+O PetroRev visa d
+\change_inserted 1635264300 1700742309
+D
+\change_unchanged
+esenvolver um software capaz de automatizar a determinação do REV em 
+\change_inserted 1635264300 1700742322
+imagens de 
+\change_unchanged
+amostras petrofísicas, agregando valor à engenharia de petróleo mediante
+ a obtenção precisa e eficiente do volume estatisticamente representativo.
 \end_layout
 
+\end_deeper
 \begin_layout Itemize
 Objetivos específicos:
 \begin_inset Separator latexpar
@@ -254,7 +372,44 @@ Objetivos específicos:
 
 \begin_deeper
 \begin_layout Itemize
-Modelagem física e matemática do problema.
+Modelagem física e matemática do problema
+\change_inserted 1635264300 1700742381
+, incluindo a definição das propriedades a serem medidas
+\change_unchanged
+.
+\change_inserted 1635264300 1700742405
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700742440
+numa primeira versão pode-se trabalhar com a ideia de aferir apenas a variação
+ da porosidade; mas a porosidade é um parâmetro frágil;
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700742495
+outros parâmetros devem ser verificados para obter um REV consistente; incluindo
+ distribuição de tamanho de poros, função conectividade, tortuosidade.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted 1635264300 1700742524
+Se tiver interesse em fazer mestrado, seria um tema interessante se abrangesse
+ todos estes itens;
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_unchanged
+
 \end_layout
 
 \begin_layout Itemize
@@ -271,7 +426,11 @@ Realização de simulações para teste e validação do software.
 
 \begin_layout Itemize
 Elaboração de um manual simplificado de utilização do PetroRev.
+
+\change_deleted 1635264300 1700742623
  
+\change_unchanged
+
 \end_layout
 
 \end_deeper
@@ -299,8 +458,32 @@ Metodologia utilizada
 \begin_layout Standard
 Para o desenvolvimento deste projeto, adotamos a metodologia de engenharia
  de software apresentada pelo Prof.
- André Bueno, complementada pela pesquisa realizada pelo doutorando André
- e pela Professora Roseane na análise do REV.
+ André Bueno
+\change_inserted 1635264300 1700742576
+ e disponibilizada no 
+\begin_inset CommandInset href
+LatexCommand href
+name "github"
+target "https://github.com/ldsc/ModeloDocumento-ProjetoEngenharia-ProgramacaoPratica"
+literal "false"
+
+\end_inset
+
+
+\change_unchanged
+, 
+\change_inserted 1635264300 1700742585
+a mesma será 
+\change_unchanged
+complementada pela pesquisa realizada pelo doutorando André 
+\change_inserted 1635264300 1700742592
+?? (sobrenome) 
+\change_unchanged
+e pela Professora Roseane 
+\change_inserted 1635264300 1700742600
+?? (sobrenome) 
+\change_unchanged
+na análise do REV.
  Essa metodologia, centrada em ciclos de concepção e análise, planejamento/detal
 hamento e construção-implementação, é amplamente embasada na disciplina
  de Introdução a Projetos: Metodologia Científica e Projeto de Softwares
