@@ -102,6 +102,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -501900170 "NMagalhaes"
 \author 1635264300 "andreduartebueno" andreduartebueno@gmail.com
 \end_header
 
@@ -154,6 +155,8 @@ o do sistema a ser modelado e desenvolvido.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -501900170 1701108901
 \begin_inset Note Note
 status collapsed
 
@@ -251,8 +254,6 @@ Plotar gráficos usando biblioteca externa CGnuplot (tem livro do gnuplot
 \end_inset
 
 
-\change_inserted 1635264300 1700743493
-
 \begin_inset Note Note
 status open
 
@@ -261,6 +262,41 @@ status open
 \change_inserted 1635264300 1700743494
 Se o André vai ajudar podemos colocar ele no repositório; preciso do login
  dele no github
+\change_unchanged
+
+\end_layout
+
+\end_inset
+
+
+\change_inserted -501900170 1701107330
+
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -501900170 1701107332
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\change_inserted -501900170 1701107495
+
+\series bold
+Nathan
+\series default
+: A princípio o projeto de IC está finalizando devido ao fim do contrato
+ com a Petrobras.
+ Mas estamos pensando em levar para frente na possibilidade de desenvolver
+ meu TCC em cima desse problema.
+\end_layout
+
+\begin_layout Plain Layout
+
+\change_inserted -501900170 1701107469
+A princípio não gostaria de adiciona-lo ao github sem a certeza de que esse
+ projeto irá para além do trabalho da disciplina.
 \change_unchanged
 
 \end_layout
@@ -350,20 +386,9 @@ Missão
 \begin_inset Text
 
 \begin_layout Plain Layout
-A missão do PetroRev é fornecer uma solução eficiente 
-\change_inserted 1635264300 1700743578
-e automatizada 
-\change_deleted 1635264300 1700743566
-e precisa 
-\change_unchanged
-para a análise do Volume Elementar Representativo (REV) em amostras petrofísicas.
- 
-\change_deleted 1635264300 1700743587
-Ao automatizar o processo de determinação do REV, o
-\change_inserted 1635264300 1700743587
-O
-\change_unchanged
- software busca oferecer uma ferramenta robusta para a engenharia de petróleo,
+A missão do PetroRev é fornecer uma solução eficiente e automatizada para
+ a análise do Volume Elementar Representativo (REV) em amostras petrofísicas.
+ O software busca oferecer uma ferramenta robusta para a engenharia de petróleo,
  permitindo estudos confiáveis das propriedades petrofísicas em escalas
  representativas.
 \end_layout
@@ -411,6 +436,24 @@ especificação
 
 \begin_layout Standard
 
+\change_inserted -501900170 1701107622
+O software PetroRev será desenvolvido para atender à demanda por uma análise
+ automatizada do Volume Elementar Representativo (REV) em amostras petrofísicas
+ obtidas por microtomografia de raios X.
+ Este software integrará módulos especializados em pré-processamento, segmentaçã
+o, cálculo de porosidade, análise estatística e uma interface gráfica intuitiva.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -501900170 1701107622
+O objetivo futuro é agilizar e otimizar a identificação do REV, atendendo
+ à complexidade das rochas do pré-sal, conhecidas pela variação heterogênea
+ na distribuição dos tamanhos de poros.
+ O PetroRev busca oferecer uma solução eficaz para a indústria petrolífera,
+ permitindo análises detalhadas das características porosas das amostras,
+ aprimorando as simulações dos reservatórios de petróleo com dados mais
+ precisos e representativos.
 \change_deleted 1635264300 1700743614
 O software PetroRev é uma aplicação destinada à análise automatizada do
  Volume Elementar Representativo (REV) em amostras petrofísicas obtidas
@@ -418,7 +461,7 @@ O software PetroRev é uma aplicação destinada à análise automatizada do
  O software é composto por diversos módulos interligados, cada um desempenhando
  funções específicas para alcançar a determinação precisa do REV e a análise
  das propriedades petrofísicas.
-\change_inserted 1635264300 1700743616
+\change_deleted -501900170 1701108894
 
 \begin_inset Note Note
 status open
@@ -453,35 +496,17 @@ Não fale como se já estivisse pronto!
 \end_layout
 
 \begin_layout Standard
-Componentes 
-\change_deleted 1635264300 1700743691
-P
-\change_inserted 1635264300 1700743691
-p
-\change_unchanged
-rincipais:
+Componentes principais:
 \end_layout
 
 \begin_layout Subsection
-Módulo de 
-\change_deleted 1635264300 1700743832
-P
-\change_inserted 1635264300 1700743832
-p
-\change_unchanged
-ré-processamento de 
-\change_deleted 1635264300 1700743835
-I
-\change_inserted 1635264300 1700743835
-i
-\change_unchanged
-magens:
+Módulo de pré-processamento de imagens:
 \end_layout
 
 \begin_layout Itemize
-Carrega e prepara
-\change_inserted 1635264300 1700743725
 
+\change_deleted -501900170 1701107744
+Carrega e prepara
 \begin_inset Note Note
 status open
 
@@ -495,15 +520,18 @@ explique o que é preparar?
 
 \end_inset
 
-
-\change_unchanged
  as imagens da microtomografia para análise.
+\change_inserted -501900170 1701107744
+Carrega e prepara amostras obtidas por microtomografia de raios X, processando
+ as imagens para análise posterior.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Itemize
-Realiza a padronização
-\change_inserted 1635264300 1700743741
 
+\change_deleted -501900170 1701107781
+Realiza a padronização
 \begin_inset Note Note
 status open
 
@@ -517,23 +545,20 @@ vamos precisar da definição do que é esta padronização; deste "padrão"
 
 \end_inset
 
-
-\change_unchanged
  e otimização das imagens para a segmentação.
+\change_inserted -501900170 1701107781
+Realiza a padronização de resolução e o aprimoramento de contraste das imagens,
+ preparando-as para o processo de segmentação.
+\change_unchanged
+
 \end_layout
 
 \begin_layout Subsection
-Módulo de 
-\change_deleted 1635264300 1700743830
-S
-\change_inserted 1635264300 1700743830
-s
+Módulo de segmentação de áreas representativas:
+\change_deleted -501900170 1701107707
+ 
 \change_unchanged
-egmentação
-\change_inserted 1635264300 1700743825
- de áreas representativas
-\change_unchanged
-: 
+
 \end_layout
 
 \begin_layout Itemize
@@ -546,9 +571,14 @@ Desenvolve algoritmos para identificar áreas representativas de poros e
 \end_layout
 
 \begin_layout Itemize
-Realiza a segmentação
-\change_inserted 1635264300 1700744036
- do que?
+
+\change_deleted -501900170 1701107802
+Realiza a segmentação do que?
+\change_inserted -501900170 1701107802
+• Realiza a segmentação das áreas de interesse, distinguindo entre poros
+ e sólidos na estrutura da amostra.
+\change_deleted -501900170 1701108919
+
 \begin_inset Note Note
 status open
 
@@ -578,26 +608,18 @@ este módulo esta confuso; tente explicar melhor
 
 \end_inset
 
-
+ nos três eixos da amostra para detalhamento minucioso
 \change_unchanged
- nos três eixos da amostra para detalhamento minucioso.
-\change_inserted 1635264300 1700744139
-
+.
 \end_layout
 
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700744149
 Divide a amostra em múltiplas subamostras ao longo dos três eixos.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted 1635264300 1700744178
 transferi do módulo 2.2.3 para cá; pois me parecer ser a segmentação
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -606,57 +628,15 @@ transferi do módulo 2.2.3 para cá; pois me parecer ser a segmentação
 \end_layout
 
 \begin_layout Subsection
-Módulo de 
-\change_deleted 1635264300 1700744274
-C
-\change_inserted 1635264300 1700744275
-c
-\change_unchanged
-álculo de 
-\change_deleted 1635264300 1700744277
-P
-\change_inserted 1635264300 1700744277
-p
-\change_unchanged
-orosidade:
-\change_deleted 1635264300 1700744225
- 
-\change_unchanged
-
+Módulo de cálculo de porosidade:
 \end_layout
 
 \begin_layout Itemize
-
-\change_deleted 1635264300 1700744138
-Divide a amostra em múltiplas subamostras ao longo dos três eixos.
-\end_layout
-
-\begin_layout Itemize
-Calcula a porosidade 
-\change_deleted 1635264300 1700744184
-individualmente
-\change_unchanged
- para cada subamostra 
-\change_deleted 1635264300 1700744187
-identificada
-\change_unchanged
-.
+Calcula a porosidade para cada subamostra .
 \end_layout
 
 \begin_layout Subsection
-Módulo de 
-\change_deleted 1635264300 1700744281
-A
-\change_inserted 1635264300 1700744281
-a
-\change_unchanged
-nálise 
-\change_deleted 1635264300 1700744282
-E
-\change_inserted 1635264300 1700744282
-e
-\change_unchanged
-statística: 
+Módulo de análise estatística:
 \end_layout
 
 \begin_layout Itemize
@@ -669,19 +649,7 @@ Seleciona o volume estatisticamente relevante para análises posteriores.
 \end_layout
 
 \begin_layout Subsection
-Módulo de 
-\change_deleted 1635264300 1700744285
-S
-\change_inserted 1635264300 1700744285
-s
-\change_unchanged
-eleção e 
-\change_deleted 1635264300 1700744287
-T
-\change_inserted 1635264300 1700744287
-t
-\change_unchanged
-rabalho com o REV:
+Módulo de seleção e trabalho com o REV:
 \end_layout
 
 \begin_layout Itemize
@@ -698,7 +666,7 @@ Permite análises detalhadas e extração de propriedades específicas da rocha
 
 \begin_layout Itemize
 
-\change_inserted 1635264300 1700744323
+\change_deleted -501900170 1701108925
 \begin_inset Note Note
 status open
 
@@ -824,6 +792,8 @@ name "subsec:Requisitos-funcionais"
 
 \begin_layout Standard
 Apresenta-se a seguir os requisitos funcionais
+\change_deleted -501900170 1701108931
+
 \begin_inset Note Note
 status open
 
@@ -834,6 +804,8 @@ coloque aqueles que fazem sentido para seu sistema
 \end_inset
 
 .
+\change_unchanged
+
 \end_layout
 
 \begin_layout Standard
@@ -858,13 +830,7 @@ RF-01
 \begin_inset Text
 
 \begin_layout Plain Layout
-O usuário deve conseg
-\change_inserted 1635264300 1700744598
-ui
-\change_deleted 1635264300 1700744597
-io
-\change_unchanged
-r carregar as imagens das lâminas da amostra.
+O usuário deve conseguir carregar as imagens das lâminas da amostra.
 \end_layout
 
 \end_inset
@@ -903,12 +869,8 @@ RF-02
 \begin_inset Text
 
 \begin_layout Plain Layout
-Realizar o pré-processamento das imagens
-\change_inserted 1635264300 1700744621
- com a aplicação de filtros
-\change_unchanged
-.
-\change_inserted 1635264300 1700744629
+Realizar o pré-processamento das imagens com a aplicação de filtros.
+\change_deleted -501900170 1701108932
 
 \begin_inset Note Note
 status open
@@ -1318,6 +1280,8 @@ as.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -501900170 1701108957
 \begin_inset Note Note
 status open
 
@@ -1432,6 +1396,8 @@ Devem ser montados diversos diagramas de caso de uso.
 \end_layout
 
 \begin_layout Standard
+
+\change_deleted -501900170 1701108957
 \begin_inset Note Note
 status open
 
@@ -1441,6 +1407,8 @@ As Figuras devem ficar GRANDES; bem legíveis!! se necessário dar zoom!!
 
 \end_inset
 
+
+\change_unchanged
 
 \end_layout
 
@@ -1510,7 +1478,7 @@ reference "cap:Diagrama-caso-uso-geral"
 samento, segmentação, cálculo de porosidade e análise estatística.
  O usuário, então, pode selecionar o REV com base nos resultados apresentados.
  
-\change_inserted 1635264300 1700746162
+\change_deleted -501900170 1701108968
 
 \begin_inset Note Note
 status open
@@ -1591,8 +1559,6 @@ Os balões seriam:
 \end_inset
 
 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Standard
@@ -1612,17 +1578,19 @@ status open
 \end_inset
 
 
-\change_inserted 1635264300 1700746085
+\change_deleted -501900170 1701108974
 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
 
-\change_inserted 1635264300 1700746128
+\change_deleted -501900170 1701108972
 você tem de usar aplicativo que seja software livre e todos possam acessar
  sem nenhuma dificuldade; usamos o umbrello porque quem vem depois de você
- pode usar sem problemas...
+ pode usar sem problemas
+\change_inserted 1635264300 1700746128
+...
 \change_unchanged
 
 \end_layout

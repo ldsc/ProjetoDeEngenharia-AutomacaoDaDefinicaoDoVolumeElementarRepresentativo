@@ -102,6 +102,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -501900170 "NMagalhaes"
 \author 1635264300 "andreduartebueno" andreduartebueno@gmail.com
 \end_header
 
@@ -163,7 +164,7 @@ name "sec:Análise-de-domínio"
 
 \begin_layout Standard
 
-\change_inserted 1635264300 1700748329
+\change_deleted -501900170 1701108840
 A subdivisão a seguir tem como base a tabela de conhecimentos do CNPq.
 \begin_inset Note Note
 status open
@@ -204,16 +205,26 @@ a ideia é que na hora de subdividir usem sempre a subdivisão que já existe
 \begin_layout Itemize
 
 \series bold
-Engenharia de Petróleo
-\change_inserted 1635264300 1700747735
-/Petrofísica
+Engenharia de Petróleo/Petrofísica:
+\change_deleted -501900170 1701108246
+ 
 \change_unchanged
-: 
-\change_inserted 1635264300 1700746612
 
 \end_layout
 
 \begin_deeper
+\begin_layout Itemize
+
+\change_inserted -501900170 1701108614
+1.07.01.01-0 Mineralogia
+\end_layout
+
+\begin_layout Itemize
+
+\change_inserted -501900170 1701108619
+1.07.01.01-0 Petrologia
+\end_layout
+
 \begin_layout Itemize
 Compreensão das propriedades petrofísicas e sua relevância na indústria
  petrolífera.
@@ -227,7 +238,7 @@ Microtomografia de Raios X:
 \change_inserted 1635264300 1700748396
 
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -245,12 +256,8 @@ veja qual área do conhecimento engloba experimentos de mivrotomografia coloque
 
 \begin_deeper
 \begin_layout Itemize
-Técnica utilizada para a digitalização de amostras rochosas 
-\change_inserted 1635264300 1700746713
-3D 
-\change_unchanged
-em alta resolução.
-\change_inserted 1635264300 1700746745
+Técnica utilizada para a digitalização de amostras rochosas 3D em alta resolução.
+\change_deleted -501900170 1701108838
 
 \begin_inset Note Note
 status open
@@ -280,48 +287,35 @@ então troque por tomografia e microtimografia
 \end_deeper
 \begin_layout Itemize
 
-\change_deleted 1635264300 1700748574
-
-\series bold
-Análise de Imagens: 
-\series default
-Processamento de imagens e algoritmos para identificação de porosidade e
- sólidos nas amostras.
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
 Estatística Aplicada:
+\change_deleted -501900170 1701108651
+
 \series default
  
-\change_inserted 1635264300 1700746618
+\change_unchanged
 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748659
 1.02.02.00-5 Estatística
 \end_layout
 
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748659
 1.02.02.07-2 Planejamento de Experimentos
 \end_layout
 
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748659
 1.02.02.08-0 Análise de Dados
 \end_layout
 
 \begin_layout Itemize
+1.02.00.00-2 Probabilidade e Estatística
+\change_deleted -501900170 1701108651
+ 
+\change_unchanged
 
-\change_inserted 1635264300 1700748659
-1.02.00.00-2 Probabilidade e Estatística 
 \end_layout
 
 \begin_layout Itemize
@@ -332,61 +326,48 @@ Análise estatística para determinação do REV representativo.
 \begin_layout Itemize
 
 \series bold
-Modelagem Computacional: 
-\change_inserted 1635264300 1700746619
+Modelagem Computacional:
+\change_deleted -501900170 1701108685
+ 
+\change_unchanged
 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748536
 1.03.03.00-6 Metodologia e Técnicas da Computação
 \end_layout
 
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748613
 1.03.03.01-4 Linguagens de Programação
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748619
 Desenvolvimento de códigos em C++
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748605
 1.03.03.02-2 Engenharia de Software
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748611
 Modelagem UML do software
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748536
 1.03.03.05-7 Processamento Gráfico (Graphics)
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Utilização dos dados obtidos para simulações numéricas em escala de poros.
- 
 \end_layout
 
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748577
 Processamento de imagens com a aplicação de filtros, métodos de segmentação
  e métodos de determinação de propriedades geométricas das imagens, por
  exemplo a porosidade das amostras.
@@ -394,8 +375,6 @@ Processamento de imagens com a aplicação de filtros, métodos de segmentação
 
 \end_deeper
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748577
 Desenvolvimento de algorimo que varia o tamanho do REV e determina a porosidade.
 \end_layout
 
@@ -503,15 +482,7 @@ No contexto do PetroRev, diversos pacotes são necessários para abordar as
 \begin_layout Itemize
 
 \series bold
-Biblioteca
-\change_deleted 1635264300 1700748852
-s
-\change_unchanged
- de Processamento de Imagens:
-\series default
- 
-\change_inserted 1635264300 1700748739
-
+Biblioteca de Processamento de Imagens:
 \end_layout
 
 \begin_deeper
@@ -524,15 +495,9 @@ Pacotes para manipulação, filtragem e preparação das imagens de microtomogra
 \begin_layout Itemize
 
 \series bold
-Biblioteca
-\change_deleted 1635264300 1700748854
-s
-\change_unchanged
- de Visão Computacional
+Biblioteca de Visão Computacional
 \series default
-: 
-\change_inserted 1635264300 1700748742
-
+:
 \end_layout
 
 \begin_deeper
@@ -543,60 +508,19 @@ Ferramentas para identificação e segmentação de poros e sólidos nas imagens
 \end_deeper
 \begin_layout Itemize
 
-\change_inserted 1635264300 1700748855
-
 \series bold
-Biblioteca
-\change_deleted 1635264300 1700748857
-Algoritmos 
-\change_inserted 1635264300 1700748857
+Biblioteca de Segmentação
+\series default
+:
+\change_deleted -501900170 1701108120
  
 \change_unchanged
-de Segmentação
-\series default
-: 
-\change_inserted 1635264300 1700748757
 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\change_deleted 1635264300 1700748863
-Desenvolvimento ou u
-\change_inserted 1635264300 1700748863
-U
-\change_unchanged
-tilização de algoritmos para 
-\change_inserted 1635264300 1700748804
-segmentação das imagens
-\change_deleted 1635264300 1700748801
-identificação precisa de áreas porosas e não porosas.
-\change_unchanged
-
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-
-\change_deleted 1635264300 1700748827
-
-\series bold
-Bibliotecas de Análise Numérica:
-\series default
- 
-\change_inserted 1635264300 1700748770
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-
-\change_deleted 1635264300 1700748829
-Utilização de pacotes para cálculos estatísticos e interpolações para análise
- de porosidade em relação ao volume das subamostras.
-\change_unchanged
-
+Utilização de algoritmos para segmentação das imagens
 \end_layout
 
 \end_deeper
@@ -604,9 +528,11 @@ Utilização de pacotes para cálculos estatísticos e interpolações para aná
 
 \series bold
 Ferramentas de Estatística:
+\change_deleted -501900170 1701108128
+
 \series default
  
-\change_inserted 1635264300 1700748772
+\change_unchanged
 
 \end_layout
 
@@ -614,29 +540,21 @@ Ferramentas de Estatística:
 \begin_layout Itemize
 Pacotes estatísticos para avaliar tendências e estabilização da porosidade
  em função do volume.
-\change_inserted 1635264300 1700748834
-
 \end_layout
 
 \begin_layout Itemize
-
-\change_inserted 1635264300 1700748834
 Utilização de pacotes para cálculos estatísticos e interpolações para análise
  de porosidade em relação ao volume das subamostras.
-\change_unchanged
-
 \end_layout
 
 \end_deeper
 \begin_layout Itemize
 
-\change_deleted 1635264300 1700748882
-
 \series bold
-Bibliotecas de 
+Interface Gráfica:
+\change_deleted -501900170 1701108128
+ 
 \change_unchanged
-Interface Gráfica: 
-\change_inserted 1635264300 1700748774
 
 \end_layout
 
@@ -649,24 +567,12 @@ Desenvolvimento de interfaces para visualização de resultados, gráficos
 \end_deeper
 \begin_layout Itemize
 
-\change_deleted 1635264300 1700748894
-
-\series bold
-Ferramentas de Integração e Gerenciamento de Código:
-\series default
- Utilização de pacotes que facilitem a integração dos diferentes módulos
- e o gerenciamento do código fonte do software.
-\change_inserted 1635264300 1700748898
-
+\change_deleted -501900170 1701108847
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted 1635264300 1700748913
 atividade não é parte do software, não é um componente
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -679,8 +585,10 @@ atividade não é parte do software, não é um componente
 \begin_layout Itemize
 
 \series bold
-Bibliotecas de Testes: 
-\change_inserted 1635264300 1700748779
+Bibliotecas de Testes:
+\change_deleted -501900170 1701108128
+ 
+\change_unchanged
 
 \end_layout
 
@@ -688,7 +596,11 @@ Bibliotecas de Testes:
 \begin_layout Itemize
 Ferramentas para validação dos resultados, testes unitários e integração
  contínua do software.
+
+\change_deleted -501900170 1701108128
  
+\change_unchanged
+
 \end_layout
 
 \end_deeper
@@ -740,11 +652,6 @@ status open
 
 \end_inset
 
-
-\change_inserted 1635264300 1700746680
-retire integração de módulos; não é um componente do softweare é uma atividade
- a ser realizada
-\change_unchanged
 
 \end_layout
 

@@ -101,6 +101,7 @@
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
+\author -501900170 "NMagalhaes"
 \author 1635264300 "andreduartebueno" andreduartebueno@gmail.com
 \end_header
 
@@ -182,43 +183,21 @@ today ele vai colocar data no material impresso
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted 1635264300 1700741465
-O
-\change_inserted 1635264300 1700741465
-No
-\change_unchanged
- presente projeto de engenharia
-\change_deleted 1635264300 1700741467
-,
-\change_unchanged
- desenvolve-se o software PetroRev, uma aplicação direcionada à engenharia
- de petróleo que adota o paradigma da orientação a objetos.
-
-\change_inserted 1635264300 1700741608
- O mesmo 
-\change_deleted 1635264300 1700741610
-
+No presente projeto de engenharia desenvolve-se o software PetroRev, uma
+ aplicação direcionada à engenharia de petróleo que adota o paradigma da
+ orientação a objetos.
 \end_layout
 
 \begin_layout Standard
-
-\change_deleted 1635264300 1700741610
-O PetroRev 
-\change_unchanged
-surge como resposta à necessidade de automatização na análise do 
+O PetroRev surge como resposta à necessidade de automatização na análise
+ do 
 \emph on
 Volume Elementar Representativo (REV)
 \emph default
- em amostras petrofísicas
-\change_deleted 1635264300 1700741494
-,
-\change_unchanged
- obtidas por microtomografia de raios X.
+ em amostras petrofísicas obtidas por microtomografia de raios X.
  Este software busca superar desafios inerentes à determinação precisa do
  REV, um fator crucial para estudos das propriedades petrofísicas, especialmente
  a porosidade, em escalas representativas.
- 
 \end_layout
 
 \begin_layout Section
@@ -243,7 +222,7 @@ O software PetroRev é desenvolvido para automatizar a análise do REV em
  O PetroRev destaca-se por sua relevância na engenharia de petróleo, oferecendo
  uma ferramenta indispensável para profissionais que buscam compreender
  as propriedades das rochas com precisão e agilidade.
-\change_inserted 1635264300 1700742071
+\change_deleted -501900170 1701109069
 
 \begin_inset Note Note
 status open
@@ -271,11 +250,55 @@ Por exemplo o texto abaixo:
 \end_inset
 
 
+\change_inserted 1635264300 1700742071
+
 \end_layout
 
 \begin_layout Standard
 
-\change_inserted 1635264300 1700742118
+\change_inserted -501900170 1701107025
+A determinação das propriedades das rochas reservatório de petróleo tradicionalm
+ente ocorre por meio da análise de amostras cilíndricas em laboratórios
+ de petrofísica ou pela investigação de imagens de rochas obtidas por diferentes
+ escalas de tomografia, como tomografia, microtomografia ou nanotomografia.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -501900170 1701107025
+No caso específico das rochas do pré-sal, é observada uma notável heterogeneidad
+e na distribuição dos tamanhos de poros, o que torna a identificação do
+ Volume Elementar Representativo (REV) um desafio complexo e crucial para
+ a precisão das simulações.
+ Esse processo demanda extensivos estudos laboratoriais, envolvendo análises
+ minuciosas das propriedades petrofísicas das amostras.
+ Essa abordagem, além de ser morosa, frequentemente acarreta custos elevados,
+ o que limita a agilidade e a eficiência na obtenção dessas propriedades
+ representativas.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -501900170 1701107025
+Nesse contexto, a utilização de técnicas de análise de imagens emerge como
+ uma alternativa promissora e necessária.
+ A exploração de imagens de rochas obtidas por meio de tomografias oferece
+ a oportunidade de uma avaliação detalhada e tridimensional das características
+ porosas das amostras.
+ Isso permite a análise de uma quantidade substancial de dados, agilizando
+ a identificação do REV e potencialmente reduzindo os custos e o tempo envolvido
+s nesse processo de determinação das propriedades petrofísicas.
+\end_layout
+
+\begin_layout Standard
+
+\change_inserted -501900170 1701107025
+A investigação mais aprofundada dessas técnicas de análise de imagens aplicadas
+ às rochas do pré-sal pode proporcionar avanços significativos na compreensão
+ e na modelagem dos reservatórios de petróleo, oferecendo uma abordagem
+ mais ágil e precisa na determinação do REV, elemento crucial para simulações
+ realistas e eficazes.
+\change_deleted -501900170 1701107025
 A determinação de propriedades de rochas reservatório de petróleo tem sido
  feita através da análise de amostras cilíndricas em laboratórios de petrofísica
  ou através da análise de imagens de rochas obtidas através da tomografia
@@ -286,7 +309,7 @@ A determinação de propriedades de rochas reservatório de petróleo tem sido
 
 \begin_layout Standard
 
-\change_inserted 1635264300 1700742198
+\change_deleted -501900170 1701107025
 Rochas do pré-sal tem uma variação muito grande na sua distribuição de tamanho
  de poros, de forma que a determinação do 
 \emph on
@@ -298,7 +321,7 @@ a ser utilizado nas simulações requer uma série de estudos em laboratório,
 
 \begin_layout Standard
 
-\change_inserted 1635264300 1700742247
+\change_deleted -501900170 1701109071
 A solução através da análise de imagens mostra-se portanto como algo a ser
  estudado.
 \begin_inset Note Note
@@ -347,17 +370,8 @@ Objetivo geral:
 
 \begin_deeper
 \begin_layout Itemize
-
-\change_deleted 1635264300 1700742309
-O PetroRev visa d
-\change_inserted 1635264300 1700742309
-D
-\change_unchanged
-esenvolver um software capaz de automatizar a determinação do REV em 
-\change_inserted 1635264300 1700742322
-imagens de 
-\change_unchanged
-amostras petrofísicas, agregando valor à engenharia de petróleo mediante
+Desenvolver um software capaz de automatizar a determinação do REV em imagens
+ de amostras petrofísicas, agregando valor à engenharia de petróleo mediante
  a obtenção precisa e eficiente do volume estatisticamente representativo.
 \end_layout
 
@@ -372,11 +386,8 @@ Objetivos específicos:
 
 \begin_deeper
 \begin_layout Itemize
-Modelagem física e matemática do problema
-\change_inserted 1635264300 1700742381
-, incluindo a definição das propriedades a serem medidas
-\change_unchanged
-.
+Modelagem física e matemática do problema, incluindo a definição das propriedade
+s a serem medidas.
 \change_inserted 1635264300 1700742405
 
 \begin_inset Note Note
@@ -458,9 +469,7 @@ Metodologia utilizada
 \begin_layout Standard
 Para o desenvolvimento deste projeto, adotamos a metodologia de engenharia
  de software apresentada pelo Prof.
- André Bueno
-\change_inserted 1635264300 1700742576
- e disponibilizada no 
+ André Bueno e disponibilizada no 
 \begin_inset CommandInset href
 LatexCommand href
 name "github"
@@ -469,19 +478,18 @@ literal "false"
 
 \end_inset
 
-
-\change_unchanged
-, 
-\change_inserted 1635264300 1700742585
-a mesma será 
-\change_unchanged
-complementada pela pesquisa realizada pelo doutorando André 
-\change_inserted 1635264300 1700742592
+, a mesma será complementada pela pesquisa realizada pelo doutorando André
+ 
+\change_deleted -501900170 1701107224
 ?? (sobrenome) 
+\change_inserted -501900170 1701107226
+Martins 
 \change_unchanged
 e pela Professora Roseane 
-\change_inserted 1635264300 1700742600
+\change_deleted -501900170 1701107246
 ?? (sobrenome) 
+\change_inserted -501900170 1701107248
+Misságia 
 \change_unchanged
 na análise do REV.
  Essa metodologia, centrada em ciclos de concepção e análise, planejamento/detal
