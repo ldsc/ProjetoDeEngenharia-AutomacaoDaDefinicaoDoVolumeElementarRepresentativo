@@ -1,0 +1,1 @@
+"O diagrama de caso de uso geral (2.1) do PetroRev agora reflete com mais precis∆o a interaá∆o entre o usu†rio e o sistema. O usu†rio carrega as imagens, enquanto o c¢digo executa as etapas de prÇ-processamento, segmentaá∆o, c†lculo de porosidade e an†lise estat°stica. O usu†rio, ent∆o, pode selecionar o REV com base nos resultados apresentados." 
