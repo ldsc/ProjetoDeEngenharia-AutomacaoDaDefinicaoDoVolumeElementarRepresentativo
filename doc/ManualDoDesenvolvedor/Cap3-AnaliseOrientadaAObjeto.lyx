@@ -287,10 +287,8 @@ name "subsec:Dicionário-de-classes"
 \end_layout
 
 \begin_layout Itemize
-Classe Rocha: Representa as propriedades e características da amostra de
- rocha a ser analisada.
- Pode conter informações como tipo de rocha, densidade, porosidade inicial,
- entre outros atributos físicos.
+Classe CImagemRocha: Representa as propriedades e características da iamgem
+ da lâmina de rocha a ser analisada.
 \end_layout
 
 \begin_layout Itemize
@@ -301,10 +299,9 @@ Classe PreProcessamento: Responsável por preparar as imagens digitais da
 \end_layout
 
 \begin_layout Itemize
-Classe CalculoPorosidade: Realiza os cálculos matemáticos necessários para
- determinar a porosidade das amostras segmentadas.
- Utiliza algoritmos específicos para calcular a porosidade em cada subamostra
- identificada.
+Classe CBinarização: Encarregada de executar os cálculos matemáticos essenciais
+ para avaliar a porosidade das amostras segmentadas, empregando algoritmos
+ específicos para determinar a porosidade em cada subamostra identificada.
 \end_layout
 
 \begin_layout Itemize
@@ -312,13 +309,6 @@ Classe AnaliseEstatistica: Efetua a análise estatística dos dados de porosidad
  obtidos, buscando identificar o Volume Elementar Representativo (REV).
  Realiza comparações estatísticas entre as subamostras para encontrar a
  representatividade estatística para futuras simulações.
-\end_layout
-
-\begin_layout Itemize
-Classe InterfaceGrafica: Oferece uma interação intuitiva entre o usuário
- e o sistema PetroRev.
- Permite o carregamento de imagens, visualização dos resultados, interação
- com as funcionalidades do software e a seleção do REV identificado.
 \end_layout
 
 \begin_layout Itemize

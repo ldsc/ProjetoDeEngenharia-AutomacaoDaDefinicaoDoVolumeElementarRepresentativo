@@ -103,7 +103,6 @@
 \html_css_as_file 0
 \html_be_strict false
 \author -501900170 "NMagalhaes"
-\author 1635264300 "andreduartebueno" andreduartebueno@gmail.com
 \end_header
 
 \begin_body
@@ -158,70 +157,20 @@ name "sec:Análise-de-domínio"
 \end_inset
 
 
-\change_inserted 1635264300 1700747816
-
-\end_layout
-
-\begin_layout Standard
-
-\change_deleted -501900170 1701108840
-A subdivisão a seguir tem como base a tabela de conhecimentos do CNPq.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 1635264300 1700748346
-coloquei a tabela em arquivo 
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 1635264300 1700748348
-veja MaterialAuxiliar/TabelaAreasConhecimento-Assuntos.dat
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 1635264300 1700748358
-também tem no site do cnpq;
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 1635264300 1700748378
-a ideia é que na hora de subdividir usem sempre a subdivisão que já existe
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \begin_layout Itemize
 
 \series bold
 Engenharia de Petróleo/Petrofísica:
-\change_deleted -501900170 1701108246
- 
-\change_unchanged
-
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-
-\change_inserted -501900170 1701108614
 1.07.01.01-0 Mineralogia
 \end_layout
 
 \begin_layout Itemize
-
-\change_inserted -501900170 1701108619
 1.07.01.01-0 Petrologia
 \end_layout
 
@@ -235,18 +184,12 @@ Compreensão das propriedades petrofísicas e sua relevância na indústria
 
 \series bold
 Microtomografia de Raios X: 
-\change_inserted 1635264300 1700748396
-
 \begin_inset Note Note
 status collapsed
 
 \begin_layout Plain Layout
-
-\change_inserted 1635264300 1700748426
 veja qual área do conhecimento engloba experimentos de mivrotomografia coloque
  aqui o nome da área
-\change_unchanged
-
 \end_layout
 
 \end_inset
@@ -257,31 +200,6 @@ veja qual área do conhecimento engloba experimentos de mivrotomografia coloque
 \begin_deeper
 \begin_layout Itemize
 Técnica utilizada para a digitalização de amostras rochosas 3D em alta resolução.
-\change_deleted -501900170 1701108838
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\change_inserted 1635264300 1700746779
-para amostrar do pré-sal tem de incluir a tomografia...pois tem poros muito
- grandes.
-\end_layout
-
-\begin_layout Plain Layout
-
-\change_inserted 1635264300 1700746794
-então troque por tomografia e microtimografia
-\change_unchanged
-
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
 \end_layout
 
 \end_deeper
@@ -289,12 +207,6 @@ então troque por tomografia e microtimografia
 
 \series bold
 Estatística Aplicada:
-\change_deleted -501900170 1701108651
-
-\series default
- 
-\change_unchanged
-
 \end_layout
 
 \begin_deeper
@@ -312,10 +224,6 @@ Estatística Aplicada:
 
 \begin_layout Itemize
 1.02.00.00-2 Probabilidade e Estatística
-\change_deleted -501900170 1701108651
- 
-\change_unchanged
-
 \end_layout
 
 \begin_layout Itemize
@@ -327,10 +235,6 @@ Análise estatística para determinação do REV representativo.
 
 \series bold
 Modelagem Computacional:
-\change_deleted -501900170 1701108685
- 
-\change_unchanged
-
 \end_layout
 
 \begin_deeper
@@ -421,10 +325,6 @@ o uma representação detalhada e precisa das amostras rochosas digitalizadas
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 Além da porosidade, A análise estatística desempenha um papel crucial na
  identificação do Volume Elementar Representativo (REV) no PetroRev.
  Utilizando dados de porosidade e volumes correspondentes em diferentes
@@ -466,7 +366,11 @@ Esse método de análise estatística, apoiado por gráficos e interpolações,
  Representativo (REV), proporcionando um embasamento estatístico sólido
  na escolha do volume representativo para simulações e estudos petrofísicos
  em escala de poros.
+
+\change_deleted -501900170 1701996484
  
+\change_unchanged
+
 \end_layout
 
 \begin_layout Section
@@ -512,10 +416,6 @@ Ferramentas para identificação e segmentação de poros e sólidos nas imagens
 Biblioteca de Segmentação
 \series default
 :
-\change_deleted -501900170 1701108120
- 
-\change_unchanged
-
 \end_layout
 
 \begin_deeper
@@ -528,12 +428,6 @@ Utilização de algoritmos para segmentação das imagens
 
 \series bold
 Ferramentas de Estatística:
-\change_deleted -501900170 1701108128
-
-\series default
- 
-\change_unchanged
-
 \end_layout
 
 \begin_deeper
@@ -552,10 +446,6 @@ Utilização de pacotes para cálculos estatísticos e interpolações para aná
 
 \series bold
 Interface Gráfica:
-\change_deleted -501900170 1701108128
- 
-\change_unchanged
-
 \end_layout
 
 \begin_deeper
@@ -567,40 +457,14 @@ Desenvolvimento de interfaces para visualização de resultados, gráficos
 \end_deeper
 \begin_layout Itemize
 
-\change_deleted -501900170 1701108847
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-atividade não é parte do software, não é um componente
-\end_layout
-
-\end_inset
-
-
-\change_unchanged
-
-\end_layout
-
-\begin_layout Itemize
-
 \series bold
 Bibliotecas de Testes:
-\change_deleted -501900170 1701108128
- 
-\change_unchanged
-
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
 Ferramentas para validação dos resultados, testes unitários e integração
  contínua do software.
-
-\change_deleted -501900170 1701108128
- 
-\change_unchanged
-
 \end_layout
 
 \end_deeper
@@ -693,32 +557,22 @@ Não perca de vista a visão do todo; do projeto de engenharia como um todo.
  Este é um diferencial fundamental do engenheiro em relação ao técnico,
  a capacidade de desenvolver projetos, de ver o todo e suas diferentes partes,
  de modelar processos/sistemas/produtos de engenharia.
-\change_inserted 1635264300 1700747700
-
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-
-\change_inserted 1635264300 1700747712
 Artigo que vale ler, trata do assunto
 \end_layout
 
 \begin_layout Plain Layout
-
-\change_inserted 1635264300 1700747707
 https://sbgf.org.br/mysbgf/eventos/expanded_abstracts/VII_SimBGf/Avalia%C3%A7%C3%A
 3o%20do%20volume%20representativo%20elementar%20de%20uma%20rocha%20carbon%C3%A1t
 ica%20heterog%C3%AAnea%20utilizando-se%20microtomografia%20computadorizada%20de%
 20raios%20X%20e%20simula%C3%A7%C3%A3o%20num%C3%A9rica.pdf
-\change_unchanged
-
 \end_layout
 
 \end_inset
 
-
-\change_unchanged
 
 \end_layout
 
