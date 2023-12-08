@@ -377,14 +377,6 @@ rhead{}
 \end_inset
 
 
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibliografia"
-options "apalike"
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
